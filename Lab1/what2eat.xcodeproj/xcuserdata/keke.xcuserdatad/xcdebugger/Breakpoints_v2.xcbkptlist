@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "what2eat/ViewController.swift"
+            timestampString = "526680920.605397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "what2eat.ViewController.__deallocating_deinit"
+                  moduleName = "what2eat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/keke/Documents/%2017Fall/%20Mobile%20App%20Development/MAD/lab1/what2eat/what2eat/ViewController.swift"
+                  timestampString = "526680921.875334"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "what2eat.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; what2eat.ViewController"
+                  moduleName = "what2eat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/keke/Documents/%2017Fall/%20Mobile%20App%20Development/MAD/lab1/what2eat/what2eat/ViewController.swift"
+                  timestampString = "526680921.881835"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "what2eat.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; what2eat.ViewController"
+                  moduleName = "what2eat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/keke/Documents/%2017Fall/%20Mobile%20App%20Development/MAD/lab1/what2eat/what2eat/ViewController.swift"
+                  timestampString = "526680921.884991"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "what2eat.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;what2eat.ViewController&gt;"
+                  moduleName = "what2eat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/keke/Documents/%2017Fall/%20Mobile%20App%20Development/MAD/lab1/what2eat/what2eat/ViewController.swift"
+                  timestampString = "526680921.887304"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "what2eat.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;what2eat.ViewController&gt;"
+                  moduleName = "what2eat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/keke/Documents/%2017Fall/%20Mobile%20App%20Development/MAD/lab1/what2eat/what2eat/ViewController.swift"
+                  timestampString = "526680921.889557"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "what2eat/ViewController.swift"
+            timestampString = "526681542.554473"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "chooseFood(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

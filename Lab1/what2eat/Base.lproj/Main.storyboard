@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="what2eat" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVM-FW-g5D">
+                                <rect key="frame" x="-90" y="28" width="500" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="FuN-qo-lWg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="500" id="WSY-q1-456"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="What do you wanna eat today?">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="ChalkboardSE-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="2bb-Zw-ZlW">
+                                <rect key="frame" x="42.5" y="96" width="235" height="33"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XWe-P7-aJT">
+                                        <rect key="frame" x="0.0" y="0.0" width="36" height="33"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Sushi">
+                                                    <attributes>
+                                                        <font key="NSFont" size="15" name="ChalkboardSE-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="chooseFood:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZbO-Y2-PhD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U7m-hO-Tnt">
+                                        <rect key="frame" x="66" y="0.0" width="39" height="33"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Steak">
+                                                    <attributes>
+                                                        <font key="NSFont" size="15" name="ChalkboardSE-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="chooseFood:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j26-I7-Yjs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ww-2s-mEC">
+                                        <rect key="frame" x="135" y="0.0" width="37" height="33"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Salad">
+                                                    <attributes>
+                                                        <font key="NSFont" size="15" name="ChalkboardSE-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="chooseFood:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rpN-Nl-2Jh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZyR-40-6c1">
+                                        <rect key="frame" x="202" y="0.0" width="33" height="33"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Soup">
+                                                    <attributes>
+                                                        <font key="NSFont" size="15" name="ChalkboardSE-Regular"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="chooseFood:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zka-Fw-Gw1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaz-4x-zgr">
+                                <rect key="frame" x="-40" y="286" width="400" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="8TN-bx-4SL"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="400" id="Wft-hb-BWk"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Your food is on the way...">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="ChalkboardSE-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="leftToRight" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6nd-Rz-efw">
+                                <rect key="frame" x="46" y="145" width="228" height="142"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" priority="750" constant="750" id="E0G-Lw-Sfo"/>
+                                    <constraint firstAttribute="width" secondItem="6nd-Rz-efw" secondAttribute="height" multiplier="245:152" id="QXJ-ug-irS"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="750" constant="750" id="fDi-1q-9Bd"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="6nd-Rz-efw" secondAttribute="trailing" constant="30" id="6l2-eO-GEv"/>
+                            <constraint firstItem="6nd-Rz-efw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fx7-QM-YLp"/>
+                            <constraint firstItem="2bb-Zw-ZlW" firstAttribute="top" secondItem="uVM-FW-g5D" secondAttribute="bottom" constant="8" id="MeK-7l-U6b"/>
+                            <constraint firstItem="jaz-4x-zgr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QwT-y2-JdV"/>
+                            <constraint firstItem="6nd-Rz-efw" firstAttribute="top" secondItem="2bb-Zw-ZlW" secondAttribute="bottom" constant="16" id="dhh-Ef-zEW"/>
+                            <constraint firstItem="jaz-4x-zgr" firstAttribute="top" secondItem="6nd-Rz-efw" secondAttribute="bottom" constant="-1" id="kNX-5i-8Wf"/>
+                            <constraint firstItem="uVM-FW-g5D" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="lzr-tn-QO6"/>
+                            <constraint firstItem="uVM-FW-g5D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q03-Ic-1DB"/>
+                            <constraint firstItem="2bb-Zw-ZlW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ubf-up-QE0"/>
+                            <constraint firstItem="6nd-Rz-efw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="vmp-kD-zom"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="foodImage" destination="6nd-Rz-efw" id="Sdc-Bw-qzi"/>
+                        <outlet property="textMessage" destination="jaz-4x-zgr" id="PiE-og-KK7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="137.5"/>
+        </scene>
+    </scenes>
+</document>
