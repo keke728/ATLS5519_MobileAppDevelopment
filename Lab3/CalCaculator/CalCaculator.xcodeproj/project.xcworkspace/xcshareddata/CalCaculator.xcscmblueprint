@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "90234A1FB3C95880F685A14586F02C5A47AC43F5" : 9223372036854775807,
+    "F20236BAEF26E9263F509F86D38D7D5FD7AE269B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BC71241D-8BF9-4EFC-93F5-6A5900DE66CA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "90234A1FB3C95880F685A14586F02C5A47AC43F5" : "..",
+    "F20236BAEF26E9263F509F86D38D7D5FD7AE269B" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CalCaculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CalCaculator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/keke728\/KekeWu_MAD.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "90234A1FB3C95880F685A14586F02C5A47AC43F5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/keke728\/KekeWu_MAD",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F20236BAEF26E9263F509F86D38D7D5FD7AE269B"
+    }
+  ]
+}
