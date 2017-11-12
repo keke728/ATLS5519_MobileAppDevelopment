@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Foodies</string>
+    <string name="heading">What\'s for dinner?</string>
+    <string name="foodForYou"></string>
+    <string name="toggleButton"></string>
+    <string name="toggle_on">Eat Out</string>
+    <string name="toggle_off">Eat In</string>
+    <string name="radioButton1">$</string>
+    <string name="radioButton2">$$</string>
+    <string name="radioButton3">$$$</string>
+    <string name="food_button">Click</string>
+    <string name="american">American Taste</string>
+    <string name="international">International Taste</string>
+    <string name="switch1">SWITCH</string>
+    <string-array name="foodChoose">
+    <item>Vegetarian</item>
+    <item>Omnivore</item>
+    </string-array>
+
+</resources>
