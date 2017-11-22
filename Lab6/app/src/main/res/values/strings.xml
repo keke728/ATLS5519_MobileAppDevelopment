@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fruit</string>
+    <string name="heading">Find Fruit</string>
+    <string name="textChoose">Choose fruit color</string>
+    <string name="find_button">Find</string>
+    <string name="fruit_suggestion">The fruit for you is</string>
+    <string name="fruit_button">Click Me</string>
+    <string-array name="color">
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Purple</item>
+        <item>White</item>
+    </string-array>
+    >
+</resources>
