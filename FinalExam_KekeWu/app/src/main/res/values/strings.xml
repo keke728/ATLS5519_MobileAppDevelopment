@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="burrito_builder">Burrito Builder</string>
+    <string name="burrito_name">burrito name</string>
+    <string name="text_off">MEAT</string>
+    <string name="text_on">VEGGIE</string>
+    <string name="burrito">Burrito</string>
+    <string name="taco">Taco</string>
+    <string name="salsa">salsa</string>
+    <string name="sour_cream">sour cream</string>
+    <string name="cheese">cheese</string>
+    <string name="guacamole">guacamole</string>
+    <string name="gluten_free">Gluten-free</string>
+    <string name="build">BUILD</string>
+    <string name="find_burrito">Find Burrito</string>
+    <string name="imagebutton">imageButton</string>
+    <string-array name="spinner">
+        <item>The Hills</item>
+        <item>29th Street</item>
+        <item>Pearl Street</item>
+    </string-array>
+</resources>
