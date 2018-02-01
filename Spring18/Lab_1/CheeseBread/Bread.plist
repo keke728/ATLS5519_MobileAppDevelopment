@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Flatbread</key>
+	<array>
+		<string>American</string>
+		<string>Cheddar</string>
+		<string>Swiss</string>
+	</array>
+	<key>9-Grain Wheat</key>
+	<array>
+		<string>Provolone</string>
+		<string>Pepperjack</string>
+		<string>Camembert</string>
+	</array>
+	<key>Honey Oat</key>
+	<array>
+		<string>Butterkase</string>
+		<string>Colby</string>
+		<string>Cold Pack</string>
+	</array>
+	<key>Italian Herbs </key>
+	<array>
+		<string>Feta</string>
+		<string>Fontina</string>
+		<string>Gouda</string>
+	</array>
+	<key>Rye Bread</key>
+	<array>
+		<string>Italico</string>
+		<string>Mozzarella</string>
+		<string>Parmesan</string>
+	</array>
+</dict>
+</plist>
