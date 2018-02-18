@@ -35,7 +35,7 @@ class DetailViewController: UITableViewController {
         variety = fruitlistDetail.fruitData[chosenFruit]! as [String]
         
     }
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         //Set BG image
