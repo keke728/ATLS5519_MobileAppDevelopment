@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina5_5" orientation="landscape">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -21,23 +21,23 @@
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="CheeseBread" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFH-Vk-qzk">
-                                <rect key="frame" x="0.0" y="251" width="736" height="64"/>
+                                <rect key="frame" x="0.0" y="556" width="414" height="64"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customize Your Bread" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qy2-K6-h1d">
-                                <rect key="frame" x="263" y="67" width="210" height="26.666666666666671"/>
+                                <rect key="frame" x="102" y="228" width="210" height="26.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bIb-wN-PRx">
-                                <rect key="frame" x="0.0" y="87" width="736" height="146"/>
+                                <rect key="frame" x="0.0" y="248" width="414" height="290"/>
                                 <connections>
                                     <outlet property="dataSource" destination="9pv-A4-QxB" id="xbZ-Nc-9iG"/>
                                     <outlet property="delegate" destination="9pv-A4-QxB" id="D3f-Ue-UIt"/>
@@ -74,17 +74,17 @@
             <objects>
                 <viewController title="Donut" id="e7s-wO-3ML" customClass="ThirdViewController" customModule="CheeseBread" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ANf-oP-N2F">
-                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DONUT SLOT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Adn-ed-fAK">
-                                <rect key="frame" x="306.66666666666669" y="77" width="123" height="24"/>
+                                <rect key="frame" x="145.66666666666666" y="173" width="122.99999999999997" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqj-Dm-och">
-                                <rect key="frame" x="344.66666666666669" y="265" width="47" height="99"/>
+                                <rect key="frame" x="183.66666666666666" y="508" width="47" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Spin"/>
                                 <connections>
@@ -92,7 +92,7 @@
                                 </connections>
                             </button>
                             <pickerView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PYz-We-Hh8">
-                                <rect key="frame" x="208" y="109" width="320" height="162"/>
+                                <rect key="frame" x="47" y="210" width="320" height="216"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" image="YES"/>
                                 </accessibility>
@@ -102,7 +102,7 @@
                                 </connections>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FPG-Se-CMP">
-                                <rect key="frame" x="169" y="257" width="406" height="0.0"/>
+                                <rect key="frame" x="46" y="409" width="321" height="91"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="321" id="ekG-jC-aFv"/>
                                     <constraint firstAttribute="height" constant="60" id="lQu-so-6y6">
@@ -192,16 +192,16 @@
                                 <exclude reference="bYA-5S-fUx"/>
                                 <exclude reference="co8-cw-uD8"/>
                                 <exclude reference="gsp-Bp-uA4"/>
-                                <exclude reference="AMB-5w-hur"/>
-                                <exclude reference="H6S-vJ-MOV"/>
-                                <exclude reference="KCV-Ao-3wj"/>
-                                <exclude reference="iEU-fV-rml"/>
                                 <exclude reference="1wz-3B-85x"/>
                                 <exclude reference="6TY-Va-GgY"/>
                                 <exclude reference="PPm-ac-r0G"/>
                                 <exclude reference="pp2-SD-Sc9"/>
                                 <exclude reference="ufR-qg-xMq"/>
                                 <exclude reference="xV1-4q-6Oj"/>
+                                <exclude reference="AMB-5w-hur"/>
+                                <exclude reference="H6S-vJ-MOV"/>
+                                <exclude reference="KCV-Ao-3wj"/>
+                                <exclude reference="iEU-fV-rml"/>
                                 <exclude reference="C1s-NC-xn9"/>
                                 <exclude reference="TnO-kn-JJR"/>
                                 <exclude reference="aTe-L5-FIw"/>
@@ -220,12 +220,6 @@
                                 <exclude reference="bYA-5S-fUx"/>
                                 <include reference="co8-cw-uD8"/>
                                 <include reference="gsp-Bp-uA4"/>
-                                <exclude reference="4gg-rV-GoR"/>
-                                <exclude reference="AMB-5w-hur"/>
-                                <exclude reference="H6S-vJ-MOV"/>
-                                <include reference="KCV-Ao-3wj"/>
-                                <exclude reference="bnc-JK-533"/>
-                                <include reference="iEU-fV-rml"/>
                                 <exclude reference="1wz-3B-85x"/>
                                 <include reference="6TY-Va-GgY"/>
                                 <exclude reference="PPm-ac-r0G"/>
@@ -234,6 +228,12 @@
                                 <exclude reference="rNX-ge-efW"/>
                                 <include reference="ufR-qg-xMq"/>
                                 <include reference="xV1-4q-6Oj"/>
+                                <exclude reference="4gg-rV-GoR"/>
+                                <exclude reference="AMB-5w-hur"/>
+                                <exclude reference="H6S-vJ-MOV"/>
+                                <include reference="KCV-Ao-3wj"/>
+                                <exclude reference="bnc-JK-533"/>
+                                <include reference="iEU-fV-rml"/>
                                 <exclude reference="A5t-Ie-bxc"/>
                                 <include reference="C1s-NC-xn9"/>
                                 <exclude reference="LZJ-N3-e9h"/>
@@ -261,11 +261,11 @@
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="CheeseBread" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpJ-Hm-zGx">
-                                <rect key="frame" x="311.66666666666669" y="250" width="113" height="41"/>
+                                <rect key="frame" x="157" y="390" width="113" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Order Now"/>
                                 <connections>
@@ -273,7 +273,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subway" translatesAutoresizingMaskIntoConstraints="NO" id="QP1-VT-e2m">
-                                <rect key="frame" x="355.66666666666669" y="87" width="25" height="120"/>
+                                <rect key="frame" x="93.666666666666686" y="164" width="227" height="191"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="QP1-VT-e2m" secondAttribute="height" multiplier="13:33" id="4Cp-QG-FO6"/>
                                     <constraint firstAttribute="width" constant="227" id="8e1-PV-qWZ"/>
