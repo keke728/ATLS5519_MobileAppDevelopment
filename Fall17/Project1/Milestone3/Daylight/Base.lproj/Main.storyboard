@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="ChalkboardSE.ttc">
+            <string>ChalkboardSE-Regular</string>
+        </array>
+        <array key="HoeflerText.ttc">
+            <string>HoeflerText-BlackItalic</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -266,19 +274,19 @@
                             <mask key="constraints">
                                 <exclude reference="9xh-3y-etu"/>
                                 <exclude reference="xGt-JH-CfG"/>
+                                <exclude reference="Hzu-tr-hDN"/>
+                                <exclude reference="Owd-lb-5T7"/>
+                                <exclude reference="avE-Hx-wex"/>
                                 <exclude reference="nQm-RO-byQ"/>
                                 <exclude reference="q44-gm-HQe"/>
                                 <exclude reference="rKp-R3-4s4"/>
                                 <exclude reference="rZ1-sI-KII"/>
-                                <exclude reference="Hzu-tr-hDN"/>
-                                <exclude reference="Owd-lb-5T7"/>
-                                <exclude reference="avE-Hx-wex"/>
-                                <exclude reference="A6G-7A-5WV"/>
-                                <exclude reference="PFB-xo-ybd"/>
-                                <exclude reference="ubX-ZW-1Qe"/>
                                 <exclude reference="5rE-Dm-IJF"/>
                                 <exclude reference="8zH-6C-qh0"/>
                                 <exclude reference="e07-dy-23d"/>
+                                <exclude reference="A6G-7A-5WV"/>
+                                <exclude reference="PFB-xo-ybd"/>
+                                <exclude reference="ubX-ZW-1Qe"/>
                                 <exclude reference="1rR-Ir-Som"/>
                                 <exclude reference="S8r-5I-2Z7"/>
                                 <exclude reference="e1r-YU-0fc"/>
@@ -292,29 +300,29 @@
                                 <exclude reference="TlU-kY-9ym"/>
                                 <exclude reference="mVd-X0-uv6"/>
                                 <include reference="xGt-JH-CfG"/>
-                                <exclude reference="fAH-1x-mzg"/>
-                                <include reference="nQm-RO-byQ"/>
-                                <include reference="q44-gm-HQe"/>
-                                <include reference="rKp-R3-4s4"/>
-                                <include reference="rZ1-sI-KII"/>
-                                <exclude reference="wRB-BR-4LM"/>
                                 <include reference="Hzu-tr-hDN"/>
                                 <include reference="Owd-lb-5T7"/>
                                 <exclude reference="QGe-Q2-eDL"/>
                                 <include reference="avE-Hx-wex"/>
                                 <exclude reference="fNb-mS-H0l"/>
                                 <exclude reference="gaZ-W3-VLs"/>
-                                <include reference="A6G-7A-5WV"/>
-                                <exclude reference="CXD-YB-hun"/>
-                                <include reference="PFB-xo-ybd"/>
-                                <exclude reference="sRJ-TR-cFv"/>
-                                <include reference="ubX-ZW-1Qe"/>
+                                <exclude reference="fAH-1x-mzg"/>
+                                <include reference="nQm-RO-byQ"/>
+                                <include reference="q44-gm-HQe"/>
+                                <include reference="rKp-R3-4s4"/>
+                                <include reference="rZ1-sI-KII"/>
+                                <exclude reference="wRB-BR-4LM"/>
                                 <include reference="5rE-Dm-IJF"/>
                                 <include reference="8zH-6C-qh0"/>
                                 <exclude reference="FJD-4G-eSj"/>
                                 <exclude reference="Zlr-5h-Pdm"/>
                                 <include reference="e07-dy-23d"/>
                                 <exclude reference="heR-eD-tmK"/>
+                                <include reference="A6G-7A-5WV"/>
+                                <exclude reference="CXD-YB-hun"/>
+                                <include reference="PFB-xo-ybd"/>
+                                <exclude reference="sRJ-TR-cFv"/>
+                                <include reference="ubX-ZW-1Qe"/>
                                 <include reference="1rR-Ir-Som"/>
                                 <exclude reference="JzY-TL-nPo"/>
                                 <include reference="S8r-5I-2Z7"/>
@@ -358,38 +366,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Good" translatesAutoresizingMaskIntoConstraints="NO" id="rg6-nb-lon" userLabel="mood">
-                                <rect key="frame" x="165" y="28" width="85" height="37"/>
+                                <rect key="frame" x="165" y="48" width="85" height="37"/>
                                 <accessibility key="accessibilityConfiguration" identifier="mood" label="mood"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Breakfast" translatesAutoresizingMaskIntoConstraints="NO" id="rSf-kG-pEc">
-                                <rect key="frame" x="125" y="123" width="60" height="58"/>
+                                <rect key="frame" x="125" y="143" width="60" height="58"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lunch" translatesAutoresizingMaskIntoConstraints="NO" id="sk5-X4-QLM">
-                                <rect key="frame" x="125" y="211" width="60" height="58"/>
+                                <rect key="frame" x="125" y="231" width="60" height="58"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lunchLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSI-Wb-ytf">
-                                <rect key="frame" x="206" y="228" width="81" height="25"/>
+                                <rect key="frame" x="206" y="248" width="81" height="25"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dinner" translatesAutoresizingMaskIntoConstraints="NO" id="tIZ-uO-eLl">
-                                <rect key="frame" x="125" y="296" width="60" height="58"/>
+                                <rect key="frame" x="125" y="316" width="60" height="58"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="breakfastLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rh-DE-XG3">
-                                <rect key="frame" x="206" y="140" width="115" height="25"/>
+                                <rect key="frame" x="206" y="160" width="115" height="25"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily Record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVN-mr-41N">
-                                <rect key="frame" x="146" y="73" width="123" height="20"/>
+                                <rect key="frame" x="146" y="93" width="123" height="20"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-BlackItalic" family="Hoefler Text" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dinnerLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3m-XK-TXW">
-                                <rect key="frame" x="206" y="313" width="89" height="25"/>
+                                <rect key="frame" x="206" y="333" width="89" height="25"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -499,24 +507,17 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="1NT-hd-3SL"/>
-                                <exclude reference="gEf-WP-S9n"/>
-                                <exclude reference="tHK-Ye-9zk"/>
-                                <exclude reference="vl9-ra-LZr"/>
                                 <exclude reference="E9H-Dv-Til"/>
                                 <exclude reference="eyJ-X1-7bO"/>
                                 <exclude reference="wwl-Pa-Mzo"/>
                                 <exclude reference="yvh-0E-xZM"/>
+                                <exclude reference="1NT-hd-3SL"/>
+                                <exclude reference="gEf-WP-S9n"/>
+                                <exclude reference="tHK-Ye-9zk"/>
+                                <exclude reference="vl9-ra-LZr"/>
                                 <exclude reference="2Qb-EU-dll"/>
                                 <exclude reference="IPY-qe-cDi"/>
                                 <exclude reference="dlA-X7-JMT"/>
-                                <exclude reference="37Q-5f-lhl"/>
-                                <exclude reference="DJo-eM-wq4"/>
-                                <exclude reference="FZ3-R1-64x"/>
-                                <exclude reference="H71-vo-8q3"/>
-                                <exclude reference="ccM-5F-YMr"/>
-                                <exclude reference="iMU-Rh-jrV"/>
-                                <exclude reference="jyb-EV-4Qd"/>
                                 <exclude reference="2hx-0T-kp1"/>
                                 <exclude reference="9D4-K8-iHt"/>
                                 <exclude reference="WFd-L9-smZ"/>
@@ -527,6 +528,13 @@
                                 <exclude reference="YE3-Wb-2vt"/>
                                 <exclude reference="c7l-zp-KkC"/>
                                 <exclude reference="qNQ-a4-Yr6"/>
+                                <exclude reference="37Q-5f-lhl"/>
+                                <exclude reference="DJo-eM-wq4"/>
+                                <exclude reference="FZ3-R1-64x"/>
+                                <exclude reference="H71-vo-8q3"/>
+                                <exclude reference="ccM-5F-YMr"/>
+                                <exclude reference="iMU-Rh-jrV"/>
+                                <exclude reference="jyb-EV-4Qd"/>
                                 <exclude reference="2a8-cp-M6G"/>
                                 <exclude reference="ATT-kG-GwI"/>
                                 <exclude reference="MhB-iJ-aoa"/>
@@ -542,12 +550,6 @@
                         </variation>
                         <variation key="heightClass=compact-widthClass=compact">
                             <mask key="constraints">
-                                <exclude reference="1NT-hd-3SL"/>
-                                <exclude reference="CTV-ch-eAj"/>
-                                <exclude reference="TKm-n0-tEt"/>
-                                <include reference="gEf-WP-S9n"/>
-                                <exclude reference="tHK-Ye-9zk"/>
-                                <include reference="vl9-ra-LZr"/>
                                 <exclude reference="AAa-8S-37S"/>
                                 <include reference="E9H-Dv-Til"/>
                                 <exclude reference="RSt-4m-ZeE"/>
@@ -556,16 +558,17 @@
                                 <exclude reference="RXn-Nv-3nB"/>
                                 <include reference="wwl-Pa-Mzo"/>
                                 <include reference="yvh-0E-xZM"/>
+                                <exclude reference="1NT-hd-3SL"/>
+                                <exclude reference="CTV-ch-eAj"/>
+                                <exclude reference="TKm-n0-tEt"/>
+                                <include reference="gEf-WP-S9n"/>
+                                <exclude reference="tHK-Ye-9zk"/>
+                                <include reference="vl9-ra-LZr"/>
                                 <include reference="2Qb-EU-dll"/>
                                 <include reference="IPY-qe-cDi"/>
                                 <exclude reference="dlA-X7-JMT"/>
                                 <exclude reference="ehy-pT-UdI"/>
                                 <exclude reference="rVz-Ac-FIL"/>
-                                <exclude reference="DsW-br-dNX"/>
-                                <include reference="FZ3-R1-64x"/>
-                                <exclude reference="Ku6-7Q-tGf"/>
-                                <exclude reference="ccM-5F-YMr"/>
-                                <include reference="iMU-Rh-jrV"/>
                                 <exclude reference="7B6-7u-S9x"/>
                                 <exclude reference="9D4-K8-iHt"/>
                                 <exclude reference="BXI-JO-WbG"/>
@@ -577,6 +580,11 @@
                                 <include reference="YE3-Wb-2vt"/>
                                 <include reference="c7l-zp-KkC"/>
                                 <exclude reference="xrx-nD-k63"/>
+                                <exclude reference="DsW-br-dNX"/>
+                                <include reference="FZ3-R1-64x"/>
+                                <exclude reference="Ku6-7Q-tGf"/>
+                                <exclude reference="ccM-5F-YMr"/>
+                                <include reference="iMU-Rh-jrV"/>
                                 <include reference="2a8-cp-M6G"/>
                                 <exclude reference="Kpp-7l-ctV"/>
                                 <exclude reference="f8V-ki-IBf"/>
@@ -585,12 +593,6 @@
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
-                                <include reference="37Q-5f-lhl"/>
-                                <exclude reference="DJo-eM-wq4"/>
-                                <exclude reference="DsW-br-dNX"/>
-                                <include reference="H71-vo-8q3"/>
-                                <exclude reference="Ku6-7Q-tGf"/>
-                                <exclude reference="jyb-EV-4Qd"/>
                                 <include reference="2hx-0T-kp1"/>
                                 <exclude reference="7B6-7u-S9x"/>
                                 <exclude reference="BXI-JO-WbG"/>
@@ -602,6 +604,12 @@
                                 <exclude reference="V8s-Eo-2YK"/>
                                 <exclude reference="qNQ-a4-Yr6"/>
                                 <exclude reference="xrx-nD-k63"/>
+                                <include reference="37Q-5f-lhl"/>
+                                <exclude reference="DJo-eM-wq4"/>
+                                <exclude reference="DsW-br-dNX"/>
+                                <include reference="H71-vo-8q3"/>
+                                <exclude reference="Ku6-7Q-tGf"/>
+                                <exclude reference="jyb-EV-4Qd"/>
                                 <exclude reference="ATT-kG-GwI"/>
                                 <exclude reference="Kpp-7l-ctV"/>
                                 <exclude reference="MhB-iJ-aoa"/>
