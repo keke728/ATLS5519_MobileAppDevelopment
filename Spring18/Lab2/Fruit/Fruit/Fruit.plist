@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Apple</key>
+	<array>
+		<string>Gala</string>
+		<string>Fuji</string>
+		<string>Jonagold</string>
+		<string>Honeycrisp</string>
+	</array>
+	<key>Avocado</key>
+	<array>
+		<string>Hass</string>
+		<string>Maluma</string>
+	</array>
+	<key>Apricot</key>
+	<array>
+		<string>Gold Cot</string>
+		<string>Tilton</string>
+		<string>Chinese Apricot</string>
+	</array>
+	<key>Banana</key>
+	<array>
+		<string>Baby Banana</string>
+		<string>Red Banana</string>
+		<string>Plantain</string>
+	</array>
+	<key>Cherry</key>
+	<array>
+		<string>Bing</string>
+		<string>Chelan</string>
+		<string>Lapins</string>
+	</array>
+	<key>Dragonfruit</key>
+	<array>
+		<string>White Fleshed</string>
+		<string>Colored Flesh</string>
+	</array>
+	<key>Grape</key>
+	<array>
+		<string>Red Grapes</string>
+		<string>White Grapes</string>
+		<string>Black Grapes</string>
+	</array>
+	<key>Honeydew</key>
+	<array>
+		<string>Green Flesh</string>
+		<string>Yellow Rind</string>
+		<string>Orange Flesh</string>
+	</array>
+	<key>Kiwifruit</key>
+	<array>
+		<string>Gold</string>
+		<string>Hardy</string>
+		<string>Hayward</string>
+	</array>
+	<key>Peach</key>
+	<array>
+		<string>Clingstone</string>
+		<string>Freestone</string>
+		<string>Peento </string>
+	</array>
+	<key>Pear</key>
+	<array>
+		<string>Green Anjou</string>
+		<string>Red Anjou</string>
+		<string>Bartlett</string>
+		<string>Forelle</string>
+	</array>
+	<key>Pineapple</key>
+	<array>
+		<string>Queen</string>
+		<string>Red Spanish</string>
+		<string>Abacaxi</string>
+	</array>
+	<key>Pomegranate</key>
+	<array>
+		<string>Angel Red</string>
+		<string>Sin Pepe</string>
+		<string>Ariana</string>
+	</array>
+	<key>Raspberry</key>
+	<array>
+		<string>Amber</string>
+		<string>Boyne</string>
+		<string>Chief</string>
+	</array>
+	<key>Strawberry</key>
+	<array>
+		<string>Alinta</string>
+		<string>Amelia</string>
+	</array>
+	<key>Watermelon</key>
+	<array>
+		<string>Seedless </string>
+		<string>Picnic</string>
+		<string>Icebox</string>
+	</array>
+</dict>
+</plist>
