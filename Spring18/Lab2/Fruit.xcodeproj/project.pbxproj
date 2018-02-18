@@ -18,7 +18,6 @@
 		A02D27532038F66A00EFF818 /* AddVarietyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02D27522038F66A00EFF818 /* AddVarietyViewController.swift */; };
 		A02D275520390E3500EFF818 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02D275420390E3500EFF818 /* DetailViewController.swift */; };
 		A0F878912039159900DB638F /* Kefa.ttc in Resources */ = {isa = PBXBuildFile; fileRef = A0F878902039159900DB638F /* Kefa.ttc */; };
-		A0F878952039265700DB638F /* FruitInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F878942039265700DB638F /* FruitInfoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +34,6 @@
 		A02D27522038F66A00EFF818 /* AddVarietyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVarietyViewController.swift; sourceTree = "<group>"; };
 		A02D275420390E3500EFF818 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A0F878902039159900DB638F /* Kefa.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kefa.ttc; sourceTree = "<group>"; };
-		A0F878942039265700DB638F /* FruitInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitInfoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +72,6 @@
 				A02D275420390E3500EFF818 /* DetailViewController.swift */,
 				A02D274A2038AB7300EFF818 /* SearchResultsController.swift */,
 				A02D27522038F66A00EFF818 /* AddVarietyViewController.swift */,
-				A0F878942039265700DB638F /* FruitInfoTableViewController.swift */,
 				A02D273A203891C600EFF818 /* Main.storyboard */,
 				A02D273D203891C600EFF818 /* Assets.xcassets */,
 				A02D273F203891C600EFF818 /* LaunchScreen.storyboard */,
@@ -161,7 +158,6 @@
 			files = (
 				A02D27512038E58200EFF818 /* Fruits.swift in Sources */,
 				A02D27532038F66A00EFF818 /* AddVarietyViewController.swift in Sources */,
-				A0F878952039265700DB638F /* FruitInfoTableViewController.swift in Sources */,
 				A02D2739203891C600EFF818 /* ViewController.swift in Sources */,
 				A02D275520390E3500EFF818 /* DetailViewController.swift in Sources */,
 				A02D274B2038AB7300EFF818 /* SearchResultsController.swift in Sources */,

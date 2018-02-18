@@ -30,7 +30,7 @@ class DetailViewController: UITableViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        fruitlistDetail.fruits = Array(fruitlistDetail.fruitData.keys)
+        fruitlistDetail.fruits = Array(fruitlistDetail.fruitData.keys).sorted() //Sort by letter
         let chosenFruit = fruitlistDetail.fruits[selectedFruit]
         variety = fruitlistDetail.fruitData[chosenFruit]! as [String]
         
