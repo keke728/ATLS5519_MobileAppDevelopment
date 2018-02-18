@@ -51,7 +51,7 @@ class ViewController: UITableViewController {
             let data = try Data(contentsOf: pathURL!)
             //decodes the property list
             fruitlist.fruitData = try plistdecoder.decode([String:[String]].self, from: data)
-            fruitlist.fruits = Array(fruitlist.fruitData.keys)
+            fruitlist.fruits = Array(fruitlist.fruitData.keys).sorted() // Sort Fruits by names
         }catch{
             //handle error
             print(error)
