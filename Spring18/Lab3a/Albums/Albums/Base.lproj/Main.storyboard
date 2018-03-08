@@ -110,7 +110,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uhp-xm-pUU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="94.902548725637189"/>
+            <point key="canvasLocation" x="-342" y="794"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="d8j-QX-Tv1">
@@ -164,7 +164,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lVe-l2-gUF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="59.200000000000003" y="95.352323838080963"/>
+            <point key="canvasLocation" x="-31" y="108"/>
         </scene>
     </scenes>
     <resources>
