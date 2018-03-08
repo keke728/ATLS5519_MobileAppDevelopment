@@ -7,8 +7,9 @@
 //  www.youtube.com/watch?v=gUhhFPTKCrE
 
 import UIKit
-
 class AddToListViewController: UIViewController {
+    
+    
     
     @IBOutlet weak var datePicker: UIDatePicker!
     @IBOutlet weak var imgImg: UIImageView!
@@ -32,15 +33,32 @@ class AddToListViewController: UIViewController {
         
         //DatePicker text color
         datePicker.setValue(UIColor.init(red:0.72 , green: 0.58, blue: 0.75, alpha: 1.0), forKey:"textColor")
-        imgImg.image = image
+        
+        //DatePicker Indicator color
+        for subview in self.datePicker.subviews {
+            if subview.frame.height <= 5 {
+                subview.backgroundColor = UIColor.init(red:0.72 , green: 0.58, blue: 0.75, alpha: 1.0)
+                subview.tintColor = UIColor.init(red:0.72 , green: 0.58, blue: 0.75, alpha: 1.0)
+                subview.layer.borderColor = UIColor.init(red:0.72 , green: 0.58, blue: 0.75, alpha: 1.0).cgColor
+                subview.layer.borderWidth = 1            }
+        }
+        
+        if let pickerView = self.datePicker.subviews.first {
+            for subview in pickerView.subviews {
+                if subview.frame.height <= 5 {
+                    subview.backgroundColor = UIColor.init(red:0.72 , green: 0.58, blue: 0.75, alpha: 1.0)
+                    subview.tintColor = UIColor.init(red:0.72 , green: 0.58, blue: 0.75, alpha: 1.0)
+                    subview.layer.borderColor = UIColor.init(red:0.72 , green: 0.58, blue: 0.75, alpha: 1.0).cgColor
+                    subview.layer.borderWidth = 1
+                }
+            }
+        }
     }
     
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
- 
 }
