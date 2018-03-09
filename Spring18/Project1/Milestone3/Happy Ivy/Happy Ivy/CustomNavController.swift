@@ -14,6 +14,14 @@ class CustomNavController: UINavigationController {
         super.viewDidLoad()
         self.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationBar.shadowImage = UIImage()
+        
+        //Set BarButtonItem Color and Font
+        UINavigationBar.appearance().tintColor = UIColor.init(red:0.72 , green: 0.58, blue: 0.75, alpha: 1.0)
+        let navigationFont = UIFont(name:"AveriaSansLibre-Regular",size:20)
+        let navigationFontAttributes = [NSAttributedStringKey.font : navigationFont]
+        UINavigationBar.appearance().titleTextAttributes = navigationFontAttributes
+        UIBarButtonItem.appearance().setTitleTextAttributes(navigationFontAttributes, for: .normal)
+        
 
         // Do any additional setup after loading the view.
     }

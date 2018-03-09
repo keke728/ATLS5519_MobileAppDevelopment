@@ -8,9 +8,9 @@
 
 import UIKit
 
+var iconSets = [String]()
+
 class GoalsViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
-  
-    var iconSets = [String]()
         
     //Set cell positions for collectionview
     let sectionInsets = UIEdgeInsets(top:150.0, left: 20.0, bottom: 20.0, right: 20.0)
@@ -27,13 +27,24 @@ class GoalsViewController: UIViewController, UICollectionViewDelegate, UICollect
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
         //Set different icons for collectionview cells
         let cell = CollectionView.dequeueReusableCell(withReuseIdentifier: "CustomCell",for: indexPath) as! CustomCollectionViewCell
         cell.cell_1.image = UIImage(named:iconSets[indexPath.row])
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+
+    }
+    
+    //Passing icon to AddToListViewController
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "AddGoals" {
+            let indexPath = CollectionView?.indexPath(for: sender as! CustomCollectionViewCell)
+            let detailVC = segue.destination as! AddToListViewController
+            detailVC.imageName = iconSets[(indexPath?.row)!]
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
