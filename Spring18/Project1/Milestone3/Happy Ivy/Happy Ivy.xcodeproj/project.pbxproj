@@ -7,41 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A04A5B29204D963C008BCC76 /* AddToListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A5B28204D963C008BCC76 /* AddToListViewController.swift */; };
-		A069735A205106A7001041C0 /* CustomNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0697359205106A7001041C0 /* CustomNavController.swift */; };
-		A069735C20510BE3001041C0 /* AveriaSansLibre-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A069735B20510BE3001041C0 /* AveriaSansLibre-Regular.ttf */; };
-		A069735F2052E787001041C0 /* CustomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A069735E2052E787001041C0 /* CustomeTabBarController.swift */; };
-		A0BC5D29204A53BE00FE0C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC5D28204A53BE00FE0C26 /* AppDelegate.swift */; };
-		A0BC5D2E204A53BE00FE0C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BC5D2C204A53BE00FE0C26 /* Main.storyboard */; };
-		A0BC5D33204A53BE00FE0C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BC5D31204A53BE00FE0C26 /* LaunchScreen.storyboard */; };
-		A0BC5D3B204B905100FE0C26 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC5D3A204B905100FE0C26 /* ToDoViewController.swift */; };
-		A0BC5D3D204B905F00FE0C26 /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC5D3C204B905F00FE0C26 /* GoalsViewController.swift */; };
-		A0BC5D3F204B907D00FE0C26 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC5D3E204B907D00FE0C26 /* StatusViewController.swift */; };
-		A0BC5D41204B909C00FE0C26 /* ShelvesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC5D40204B909C00FE0C26 /* ShelvesViewController.swift */; };
-		A0BC5D45204BB02D00FE0C26 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC5D44204BB02D00FE0C26 /* CustomCollectionViewCell.swift */; };
-		A0BC5D47204BB7D600FE0C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BC5D46204BB7D600FE0C26 /* Assets.xcassets */; };
+		A0D983B92048A541001AD088 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D983B82048A541001AD088 /* AppDelegate.swift */; };
+		A0D983BE2048A541001AD088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D983BC2048A541001AD088 /* Main.storyboard */; };
+		A0D983C02048A541001AD088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D983BF2048A541001AD088 /* Assets.xcassets */; };
+		A0D983C32048A541001AD088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D983C12048A541001AD088 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A04A5B28204D963C008BCC76 /* AddToListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToListViewController.swift; sourceTree = "<group>"; };
-		A0697359205106A7001041C0 /* CustomNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavController.swift; sourceTree = "<group>"; };
-		A069735B20510BE3001041C0 /* AveriaSansLibre-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AveriaSansLibre-Regular.ttf"; sourceTree = "<group>"; };
-		A069735E2052E787001041C0 /* CustomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTabBarController.swift; sourceTree = "<group>"; };
-		A0BC5D25204A53BE00FE0C26 /* Happy Ivy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Ivy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0BC5D28204A53BE00FE0C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0BC5D2D204A53BE00FE0C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A0BC5D32204A53BE00FE0C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A0BC5D34204A53BE00FE0C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0BC5D3A204B905100FE0C26 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
-		A0BC5D3C204B905F00FE0C26 /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		A0BC5D3E204B907D00FE0C26 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
-		A0BC5D40204B909C00FE0C26 /* ShelvesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelvesViewController.swift; sourceTree = "<group>"; };
-		A0BC5D44204BB02D00FE0C26 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
-		A0BC5D46204BB7D600FE0C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0D983B52048A541001AD088 /* Happy Ivy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Ivy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D983B82048A541001AD088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0D983BD2048A541001AD088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0D983BF2048A541001AD088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0D983C22048A541001AD088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0D983C42048A541001AD088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A0BC5D22204A53BE00FE0C26 /* Frameworks */ = {
+		A0D983B22048A540001AD088 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,47 +33,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A069735D20510BFB001041C0 /* Fonts */ = {
+		A0D983AC2048A540001AD088 = {
 			isa = PBXGroup;
 			children = (
-				A069735B20510BE3001041C0 /* AveriaSansLibre-Regular.ttf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		A0BC5D1C204A53BE00FE0C26 = {
-			isa = PBXGroup;
-			children = (
-				A0BC5D27204A53BE00FE0C26 /* Happy Ivy */,
-				A0BC5D26204A53BE00FE0C26 /* Products */,
+				A0D983B72048A541001AD088 /* Happy Ivy */,
+				A0D983B62048A541001AD088 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A0BC5D26204A53BE00FE0C26 /* Products */ = {
+		A0D983B62048A541001AD088 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0BC5D25204A53BE00FE0C26 /* Happy Ivy.app */,
+				A0D983B52048A541001AD088 /* Happy Ivy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A0BC5D27204A53BE00FE0C26 /* Happy Ivy */ = {
+		A0D983B72048A541001AD088 /* Happy Ivy */ = {
 			isa = PBXGroup;
 			children = (
-				A0BC5D28204A53BE00FE0C26 /* AppDelegate.swift */,
-				A0BC5D3A204B905100FE0C26 /* ToDoViewController.swift */,
-				A0BC5D3C204B905F00FE0C26 /* GoalsViewController.swift */,
-				A04A5B28204D963C008BCC76 /* AddToListViewController.swift */,
-				A0BC5D3E204B907D00FE0C26 /* StatusViewController.swift */,
-				A0BC5D40204B909C00FE0C26 /* ShelvesViewController.swift */,
-				A0BC5D44204BB02D00FE0C26 /* CustomCollectionViewCell.swift */,
-				A0697359205106A7001041C0 /* CustomNavController.swift */,
-				A069735E2052E787001041C0 /* CustomeTabBarController.swift */,
-				A0BC5D2C204A53BE00FE0C26 /* Main.storyboard */,
-				A0BC5D31204A53BE00FE0C26 /* LaunchScreen.storyboard */,
-				A0BC5D34204A53BE00FE0C26 /* Info.plist */,
-				A0BC5D46204BB7D600FE0C26 /* Assets.xcassets */,
-				A069735D20510BFB001041C0 /* Fonts */,
+				A0D983B82048A541001AD088 /* AppDelegate.swift */,
+				A0D983BC2048A541001AD088 /* Main.storyboard */,
+				A0D983BF2048A541001AD088 /* Assets.xcassets */,
+				A0D983C12048A541001AD088 /* LaunchScreen.storyboard */,
+				A0D983C42048A541001AD088 /* Info.plist */,
 			);
 			path = "Happy Ivy";
 			sourceTree = "<group>";
@@ -99,13 +64,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A0BC5D24204A53BE00FE0C26 /* Happy Ivy */ = {
+		A0D983B42048A540001AD088 /* Happy Ivy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0BC5D37204A53BE00FE0C26 /* Build configuration list for PBXNativeTarget "Happy Ivy" */;
+			buildConfigurationList = A0D983C72048A541001AD088 /* Build configuration list for PBXNativeTarget "Happy Ivy" */;
 			buildPhases = (
-				A0BC5D21204A53BE00FE0C26 /* Sources */,
-				A0BC5D22204A53BE00FE0C26 /* Frameworks */,
-				A0BC5D23204A53BE00FE0C26 /* Resources */,
+				A0D983B12048A540001AD088 /* Sources */,
+				A0D983B22048A540001AD088 /* Frameworks */,
+				A0D983B32048A540001AD088 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -113,26 +78,26 @@
 			);
 			name = "Happy Ivy";
 			productName = "Happy Ivy";
-			productReference = A0BC5D25204A53BE00FE0C26 /* Happy Ivy.app */;
+			productReference = A0D983B52048A541001AD088 /* Happy Ivy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A0BC5D1D204A53BE00FE0C26 /* Project object */ = {
+		A0D983AD2048A540001AD088 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Keke Wu";
 				TargetAttributes = {
-					A0BC5D24204A53BE00FE0C26 = {
+					A0D983B42048A540001AD088 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = A0BC5D20204A53BE00FE0C26 /* Build configuration list for PBXProject "Happy Ivy" */;
+			buildConfigurationList = A0D983B02048A540001AD088 /* Build configuration list for PBXProject "Happy Ivy" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,62 +105,53 @@
 				en,
 				Base,
 			);
-			mainGroup = A0BC5D1C204A53BE00FE0C26;
-			productRefGroup = A0BC5D26204A53BE00FE0C26 /* Products */;
+			mainGroup = A0D983AC2048A540001AD088;
+			productRefGroup = A0D983B62048A541001AD088 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0BC5D24204A53BE00FE0C26 /* Happy Ivy */,
+				A0D983B42048A540001AD088 /* Happy Ivy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A0BC5D23204A53BE00FE0C26 /* Resources */ = {
+		A0D983B32048A540001AD088 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0BC5D33204A53BE00FE0C26 /* LaunchScreen.storyboard in Resources */,
-				A069735C20510BE3001041C0 /* AveriaSansLibre-Regular.ttf in Resources */,
-				A0BC5D47204BB7D600FE0C26 /* Assets.xcassets in Resources */,
-				A0BC5D2E204A53BE00FE0C26 /* Main.storyboard in Resources */,
+				A0D983C32048A541001AD088 /* LaunchScreen.storyboard in Resources */,
+				A0D983C02048A541001AD088 /* Assets.xcassets in Resources */,
+				A0D983BE2048A541001AD088 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A0BC5D21204A53BE00FE0C26 /* Sources */ = {
+		A0D983B12048A540001AD088 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A069735A205106A7001041C0 /* CustomNavController.swift in Sources */,
-				A0BC5D41204B909C00FE0C26 /* ShelvesViewController.swift in Sources */,
-				A04A5B29204D963C008BCC76 /* AddToListViewController.swift in Sources */,
-				A0BC5D45204BB02D00FE0C26 /* CustomCollectionViewCell.swift in Sources */,
-				A0BC5D3D204B905F00FE0C26 /* GoalsViewController.swift in Sources */,
-				A0BC5D3B204B905100FE0C26 /* ToDoViewController.swift in Sources */,
-				A0BC5D29204A53BE00FE0C26 /* AppDelegate.swift in Sources */,
-				A069735F2052E787001041C0 /* CustomeTabBarController.swift in Sources */,
-				A0BC5D3F204B907D00FE0C26 /* StatusViewController.swift in Sources */,
+				A0D983B92048A541001AD088 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A0BC5D2C204A53BE00FE0C26 /* Main.storyboard */ = {
+		A0D983BC2048A541001AD088 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A0BC5D2D204A53BE00FE0C26 /* Base */,
+				A0D983BD2048A541001AD088 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A0BC5D31204A53BE00FE0C26 /* LaunchScreen.storyboard */ = {
+		A0D983C12048A541001AD088 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A0BC5D32204A53BE00FE0C26 /* Base */,
+				A0D983C22048A541001AD088 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -203,7 +159,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A0BC5D35204A53BE00FE0C26 /* Debug */ = {
+		A0D983C52048A541001AD088 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,7 +216,7 @@
 			};
 			name = Debug;
 		};
-		A0BC5D36204A53BE00FE0C26 /* Release */ = {
+		A0D983C62048A541001AD088 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -310,7 +266,7 @@
 			};
 			name = Release;
 		};
-		A0BC5D38204A53BE00FE0C26 /* Debug */ = {
+		A0D983C82048A541001AD088 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -325,7 +281,7 @@
 			};
 			name = Debug;
 		};
-		A0BC5D39204A53BE00FE0C26 /* Release */ = {
+		A0D983C92048A541001AD088 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -343,25 +299,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0BC5D20204A53BE00FE0C26 /* Build configuration list for PBXProject "Happy Ivy" */ = {
+		A0D983B02048A540001AD088 /* Build configuration list for PBXProject "Happy Ivy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0BC5D35204A53BE00FE0C26 /* Debug */,
-				A0BC5D36204A53BE00FE0C26 /* Release */,
+				A0D983C52048A541001AD088 /* Debug */,
+				A0D983C62048A541001AD088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0BC5D37204A53BE00FE0C26 /* Build configuration list for PBXNativeTarget "Happy Ivy" */ = {
+		A0D983C72048A541001AD088 /* Build configuration list for PBXNativeTarget "Happy Ivy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0BC5D38204A53BE00FE0C26 /* Debug */,
-				A0BC5D39204A53BE00FE0C26 /* Release */,
+				A0D983C82048A541001AD088 /* Debug */,
+				A0D983C92048A541001AD088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A0BC5D1D204A53BE00FE0C26 /* Project object */;
+	rootObject = A0D983AD2048A540001AD088 /* Project object */;
 }

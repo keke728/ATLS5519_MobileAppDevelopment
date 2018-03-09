@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Happy Ivy
 //
-//  Created by Keke Wu on 3/2/18.
+//  Created by Keke Wu on 3/1/18.
 //  Copyright © 2018 Keke Wu. All rights reserved.
 //
 
@@ -13,8 +13,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
         // Override point for customization after application launch.
         return true
     }
