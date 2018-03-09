@@ -21,10 +21,8 @@ class CustomNavController: UINavigationController {
         let navigationFontAttributes = [NSAttributedStringKey.font : navigationFont]
         UINavigationBar.appearance().titleTextAttributes = navigationFontAttributes
         UIBarButtonItem.appearance().setTitleTextAttributes(navigationFontAttributes, for: .normal)
-        
-
-        // Do any additional setup after loading the view.
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

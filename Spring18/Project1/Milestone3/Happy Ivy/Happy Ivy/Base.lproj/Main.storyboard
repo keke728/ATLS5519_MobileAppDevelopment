@@ -115,6 +115,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vIC-8R-Y8i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Vr8-cc-ckd" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="913" y="-264"/>
         </scene>
@@ -149,24 +150,33 @@
                         <viewLayoutGuide key="safeArea" id="5Te-F1-6si"/>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="nSC-x4-4v7">
-                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="cancel" id="Rqh-ib-DJc"/>
-                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="save" id="Vpi-cA-IaN"/>
+                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="cancel" id="Rqh-ib-DJc">
+                            <connections>
+                                <action selector="cancleBtn:" destination="3kf-Dl-Z0X" id="W9E-bm-hph"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="save" id="Vpi-cA-IaN">
+                            <connections>
+                                <action selector="savebtn:" destination="3kf-Dl-Z0X" id="Q3K-jd-Pav"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="datePicker" destination="9hN-PI-MNu" id="y3U-xN-TAV"/>
                         <outlet property="imgImg" destination="2sx-Th-zTf" id="ecd-h0-Yks"/>
+                        <segue destination="Vr8-cc-ckd" kind="unwind" identifier="unwindSegue" unwindAction="unwindSegueWithSegue:" id="lOH-Yt-18q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cnx-4R-nwz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1676" y="-264"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Custome Tab Bar Controller-->
         <scene sceneID="oBc-Ko-l5p">
             <objects>
-                <tabBarController id="Urn-m1-WCE" sceneMemberID="viewController">
+                <tabBarController id="Urn-m1-WCE" customClass="CustomeTabBarController" customModule="Happy_Ivy" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NBW-MB-iyP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

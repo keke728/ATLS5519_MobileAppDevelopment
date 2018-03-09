@@ -4,7 +4,7 @@
 //
 //  Created by Keke Wu on 3/3/18.
 //  Copyright © 2018 Keke Wu. All rights reserved.
-//
+//  medium.com/@mimicatcodes/create-unwind-segues-in-swift-3-8793f7d23c6f
 
 import UIKit
 
@@ -19,6 +19,9 @@ class GoalsViewController: UIViewController, UICollectionViewDelegate, UICollect
         return sectionInsets
     }
     
+    //UnwindSegue function
+    @IBAction func unwindSegue(segue:UIStoryboardSegue){
+    }
     
     @IBOutlet weak var CollectionView: UICollectionView!
     

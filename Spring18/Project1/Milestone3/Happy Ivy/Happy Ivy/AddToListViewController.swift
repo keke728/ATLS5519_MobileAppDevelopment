@@ -10,6 +10,10 @@
 import UIKit
 class AddToListViewController: UIViewController {
     
+    //Perform UnwindSegue
+    @IBAction func cancleBtn(_ sender: UIBarButtonItem) {
+        performSegue(withIdentifier: "unwindSegue", sender: self)
+    }
     @IBOutlet weak var datePicker: UIDatePicker!
     @IBOutlet weak var imgImg: UIImageView!
     

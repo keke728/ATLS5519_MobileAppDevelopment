@@ -10,6 +10,7 @@
 		A04A5B29204D963C008BCC76 /* AddToListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A5B28204D963C008BCC76 /* AddToListViewController.swift */; };
 		A069735A205106A7001041C0 /* CustomNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0697359205106A7001041C0 /* CustomNavController.swift */; };
 		A069735C20510BE3001041C0 /* AveriaSansLibre-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A069735B20510BE3001041C0 /* AveriaSansLibre-Regular.ttf */; };
+		A069735F2052E787001041C0 /* CustomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A069735E2052E787001041C0 /* CustomeTabBarController.swift */; };
 		A0BC5D29204A53BE00FE0C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC5D28204A53BE00FE0C26 /* AppDelegate.swift */; };
 		A0BC5D2E204A53BE00FE0C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BC5D2C204A53BE00FE0C26 /* Main.storyboard */; };
 		A0BC5D33204A53BE00FE0C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BC5D31204A53BE00FE0C26 /* LaunchScreen.storyboard */; };
@@ -25,6 +26,7 @@
 		A04A5B28204D963C008BCC76 /* AddToListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToListViewController.swift; sourceTree = "<group>"; };
 		A0697359205106A7001041C0 /* CustomNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavController.swift; sourceTree = "<group>"; };
 		A069735B20510BE3001041C0 /* AveriaSansLibre-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AveriaSansLibre-Regular.ttf"; sourceTree = "<group>"; };
+		A069735E2052E787001041C0 /* CustomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTabBarController.swift; sourceTree = "<group>"; };
 		A0BC5D25204A53BE00FE0C26 /* Happy Ivy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Ivy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BC5D28204A53BE00FE0C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0BC5D2D204A53BE00FE0C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				A0BC5D40204B909C00FE0C26 /* ShelvesViewController.swift */,
 				A0BC5D44204BB02D00FE0C26 /* CustomCollectionViewCell.swift */,
 				A0697359205106A7001041C0 /* CustomNavController.swift */,
+				A069735E2052E787001041C0 /* CustomeTabBarController.swift */,
 				A0BC5D2C204A53BE00FE0C26 /* Main.storyboard */,
 				A0BC5D31204A53BE00FE0C26 /* LaunchScreen.storyboard */,
 				A0BC5D34204A53BE00FE0C26 /* Info.plist */,
@@ -173,6 +176,7 @@
 				A0BC5D3D204B905F00FE0C26 /* GoalsViewController.swift in Sources */,
 				A0BC5D3B204B905100FE0C26 /* ToDoViewController.swift in Sources */,
 				A0BC5D29204A53BE00FE0C26 /* AppDelegate.swift in Sources */,
+				A069735F2052E787001041C0 /* CustomeTabBarController.swift in Sources */,
 				A0BC5D3F204B907D00FE0C26 /* StatusViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
