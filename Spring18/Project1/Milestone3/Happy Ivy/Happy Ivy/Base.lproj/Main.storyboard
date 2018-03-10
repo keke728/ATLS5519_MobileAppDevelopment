@@ -16,7 +16,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Shelves-->
+        <!--Shelves View Controller-->
         <scene sceneID="y2P-W1-7cR">
             <objects>
                 <viewController id="Xmv-p4-mgX" customClass="ShelvesViewController" customModule="Happy_Ivy" customModuleProvider="target" sceneMemberID="viewController">
@@ -26,13 +26,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="OgL-7f-jiN"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Shelves" image="Shelves" id="Q40-0t-pav"/>
+                    <tabBarItem key="tabBarItem" tag="4" title="" image="tab1_4" selectedImage="tab4_4" id="Q40-0t-pav"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dFw-Qm-ACe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-821" y="796"/>
         </scene>
-        <!--To-Do-->
+        <!--To Do View Controller-->
         <scene sceneID="KVL-St-aQk">
             <objects>
                 <viewController id="Hay-PN-ehB" customClass="ToDoViewController" customModule="Happy_Ivy" customModuleProvider="target" sceneMemberID="viewController">
@@ -42,13 +42,28 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="nW5-b3-Cgx"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="To-Do" image="Todo" selectedImage="Todo" id="p44-Cb-gtH"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="" image="tab1_2" selectedImage="tab2_2" id="p44-Cb-gtH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qFg-SA-RPQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="135.19999999999999" y="457.42128935532236"/>
         </scene>
-        <!--Status-->
+        <!--More View Controller-->
+        <scene sceneID="hiw-0j-3UP">
+            <objects>
+                <viewController id="ui3-aM-8mP" customClass="MoreViewController" customModule="Happy_Ivy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KjF-dS-MIH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="TQK-hd-mrU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dcE-8h-Vjn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="913" y="457"/>
+        </scene>
+        <!--Status View Controller-->
         <scene sceneID="ZQl-9h-t7Q">
             <objects>
                 <viewController id="R04-pN-2c0" customClass="StatusViewController" customModule="Happy_Ivy" customModuleProvider="target" sceneMemberID="viewController">
@@ -58,7 +73,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Byw-gt-sEq"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Status" image="Status" id="J4X-hs-x7r"/>
+                    <tabBarItem key="tabBarItem" tag="3" title="" image="tab1_3" selectedImage="tab3_3" id="J4X-hs-x7r"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
@@ -252,7 +267,7 @@
         <scene sceneID="oBc-Ko-l5p">
             <objects>
                 <tabBarController id="Urn-m1-WCE" customClass="CustomTabBarController" customModule="Happy_Ivy" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NBW-MB-iyP">
+                    <tabBar key="tabBar" clipsSubviews="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" backgroundImage="tab_goal_bg" id="NBW-MB-iyP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -268,11 +283,11 @@
             </objects>
             <point key="canvasLocation" x="-811" y="122"/>
         </scene>
-        <!--Goals-->
+        <!--Custom Nav Controller-->
         <scene sceneID="CGC-xB-Yua">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XW9-OR-VCr" customClass="CustomNavController" customModule="Happy_Ivy" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Goals" image="Goal" selectedImage="Goal" id="MF6-0h-9J2"/>
+                    <tabBarItem key="tabBarItem" title="" image="tab1_4" selectedImage="tab1_1" id="MF6-0h-9J2"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XJ7-ZI-Ws9">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -289,10 +304,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Goal" width="24" height="24"/>
-        <image name="Shelves" width="30" height="23"/>
-        <image name="Status" width="30" height="21"/>
-        <image name="Todo" width="24" height="24"/>
         <image name="alarm" width="76" height="86"/>
+        <image name="tab1_1" width="53" height="53"/>
+        <image name="tab1_2" width="53" height="53"/>
+        <image name="tab1_3" width="53" height="53"/>
+        <image name="tab1_4" width="53" height="53"/>
+        <image name="tab2_2" width="53" height="53"/>
+        <image name="tab3_3" width="53" height="53"/>
+        <image name="tab4_4" width="53" height="53"/>
+        <image name="tab_goal_bg" width="640" height="98"/>
     </resources>
 </document>

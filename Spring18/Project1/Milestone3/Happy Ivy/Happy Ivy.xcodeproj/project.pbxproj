@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7E180599987E7610936A72BE /* Pods_Happy_Ivy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C518996F07302399EAC9A8B7 /* Pods_Happy_Ivy.framework */; };
+		A00FF6F120538F0800772DD0 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00FF6F020538F0800772DD0 /* MoreViewController.swift */; };
 		A04A5B29204D963C008BCC76 /* AddToListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A5B28204D963C008BCC76 /* AddToListViewController.swift */; };
 		A069735A205106A7001041C0 /* CustomNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0697359205106A7001041C0 /* CustomNavController.swift */; };
 		A069735C20510BE3001041C0 /* AveriaSansLibre-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A069735B20510BE3001041C0 /* AveriaSansLibre-Regular.ttf */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		30633B348BABA683040CB6AD /* Pods-Happy Ivy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy Ivy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Happy Ivy/Pods-Happy Ivy.release.xcconfig"; sourceTree = "<group>"; };
 		867A96894120B8431A47D43E /* Pods-Happy Ivy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy Ivy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Happy Ivy/Pods-Happy Ivy.debug.xcconfig"; sourceTree = "<group>"; };
+		A00FF6F020538F0800772DD0 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		A04A5B28204D963C008BCC76 /* AddToListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToListViewController.swift; sourceTree = "<group>"; };
 		A0697359205106A7001041C0 /* CustomNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavController.swift; sourceTree = "<group>"; };
 		A069735B20510BE3001041C0 /* AveriaSansLibre-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AveriaSansLibre-Regular.ttf"; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				A0BC5D44204BB02D00FE0C26 /* CustomCollectionViewCell.swift */,
 				A0697359205106A7001041C0 /* CustomNavController.swift */,
 				A069735E2052E787001041C0 /* CustomTabBarController.swift */,
+				A00FF6F020538F0800772DD0 /* MoreViewController.swift */,
 				A0BC5D2C204A53BE00FE0C26 /* Main.storyboard */,
 				A0BC5D31204A53BE00FE0C26 /* LaunchScreen.storyboard */,
 				A0BC5D34204A53BE00FE0C26 /* Info.plist */,
@@ -255,6 +258,7 @@
 				A04A5B29204D963C008BCC76 /* AddToListViewController.swift in Sources */,
 				A0BC5D45204BB02D00FE0C26 /* CustomCollectionViewCell.swift in Sources */,
 				A0BC5D3D204B905F00FE0C26 /* GoalsViewController.swift in Sources */,
+				A00FF6F120538F0800772DD0 /* MoreViewController.swift in Sources */,
 				A0BC5D3B204B905100FE0C26 /* ToDoViewController.swift in Sources */,
 				A0BC5D29204A53BE00FE0C26 /* AppDelegate.swift in Sources */,
 				A069735F2052E787001041C0 /* CustomTabBarController.swift in Sources */,

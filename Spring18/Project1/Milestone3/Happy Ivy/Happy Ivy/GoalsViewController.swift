@@ -10,7 +10,7 @@ import UIKit
 
 var iconSets = [String]()
 
-class GoalsViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
+class GoalsViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UITabBarDelegate{
         
     //Set cell positions for collectionview
     let sectionInsets = UIEdgeInsets(top:150.0, left: 20.0, bottom: 20.0, right: 20.0)
@@ -39,11 +39,8 @@ class GoalsViewController: UIViewController, UICollectionViewDelegate, UICollect
         cell.cell_1.image = UIImage(named:iconSets[indexPath.row])
         return cell
       }
-    
-      func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
 
-      }
-    
+
     //Get Current Date
       func getCurrentDate(){
         let formatter = DateFormatter()
@@ -74,6 +71,7 @@ class GoalsViewController: UIViewController, UICollectionViewDelegate, UICollect
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadData()
         
         //Set Background Image
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
@@ -92,6 +90,24 @@ class GoalsViewController: UIViewController, UICollectionViewDelegate, UICollect
         getCurrentDate()
         getSingle()
 
+    }
+    
+    func loadData(){
+        //Tab Bar Icons
+        let tabBar: UITabBar = tabBarController!.tabBar
+        let tabBarItem1: UITabBarItem = tabBar.items![0]
+        let tabBarItem2: UITabBarItem = tabBar.items![1]
+        let tabBarItem3: UITabBarItem = tabBar.items![2]
+        let tabBarItem4: UITabBarItem = tabBar.items![3]
+        tabBarItem1.image = UIImage(named:"tab1_1")
+        tabBarItem2.image = UIImage(named:"tab1_2")
+        tabBarItem3.image = UIImage(named:"tab1_3")
+        tabBarItem4.image = UIImage(named:"tab1_4")
+    }
+    
+    //Call loadData() again
+    override func viewWillAppear(_ animated: Bool) {
+        loadData()
     }
 
     override func didReceiveMemoryWarning() {

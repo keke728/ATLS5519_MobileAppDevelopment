@@ -1,44 +1,27 @@
 //
-//  ToDoViewController.swift
+//  MoreViewController.swift
 //  Happy Ivy
 //
-//  Created by Keke Wu on 3/3/18.
+//  Created by Keke Wu on 3/9/18.
 //  Copyright © 2018 Keke Wu. All rights reserved.
 //
 
 import UIKit
 
-class ToDoViewController: UIViewController {
-    
+
+
+class MoreViewController: UIViewController, UICollectionViewDelegate {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadData()
+        
         //Set Background Image
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named: "Todo_BG")
+        backgroundImage.image = UIImage(named: "more")
         backgroundImage.contentMode = UIViewContentMode.scaleAspectFill
         self.view.insertSubview(backgroundImage, at: 0)
+
         // Do any additional setup after loading the view.
-    
-    }
-    
-    func loadData(){
-        //Tab Bar Icons
-        let tabBar: UITabBar = tabBarController!.tabBar
-        let tabBarItem1: UITabBarItem = tabBar.items![0]
-        let tabBarItem2: UITabBarItem = tabBar.items![1]
-        let tabBarItem3: UITabBarItem = tabBar.items![2]
-        let tabBarItem4: UITabBarItem = tabBar.items![3]
-        tabBarItem1.image = UIImage(named:"tab2_1")
-        tabBarItem2.image = UIImage(named:"tab2_2")
-        tabBarItem3.image = UIImage(named:"tab2_3")
-        tabBarItem4.image = UIImage(named:"tab2_4")
-    }
-    
-    
-    //Call loadData() again
-    override func viewWillAppear(_ animated: Bool) {
-        loadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,7 +29,6 @@ class ToDoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
     
 
     /*
