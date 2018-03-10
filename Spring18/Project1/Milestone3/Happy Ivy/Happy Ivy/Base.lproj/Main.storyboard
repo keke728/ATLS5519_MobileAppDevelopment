@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -91,12 +92,17 @@
                                             <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alarm" translatesAutoresizingMaskIntoConstraints="NO" id="pvo-QK-MxF">
-                                                    <rect key="frame" x="-7" y="12" width="94" height="56"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alarm" translatesAutoresizingMaskIntoConstraints="NO" id="pvo-QK-MxF">
+                                                    <rect key="frame" x="15" y="15" width="50" height="50"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
+                                        <constraints>
+                                            <constraint firstItem="pvo-QK-MxF" firstAttribute="top" secondItem="t5z-in-3XZ" secondAttribute="topMargin" constant="7" id="40C-3i-mw6"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="pvo-QK-MxF" secondAttribute="trailing" constant="7" id="6wn-aT-k76"/>
+                                            <constraint firstItem="pvo-QK-MxF" firstAttribute="leading" secondItem="t5z-in-3XZ" secondAttribute="leadingMargin" constant="7" id="GX7-Vf-NJy"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="pvo-QK-MxF" secondAttribute="bottom" constant="7" id="YxS-Pu-JX6"/>
+                                        </constraints>
                                         <connections>
                                             <outlet property="cell_1" destination="pvo-QK-MxF" id="Dm9-gP-cml"/>
                                             <segue destination="3kf-Dl-Z0X" kind="show" identifier="AddGoals" id="4GL-Wa-P5M"/>
@@ -167,10 +173,10 @@
                                 </date>
                                 <locale key="locale" localeIdentifier="en_US"/>
                             </datePicker>
-                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2sx-Th-zTf">
+                            <imageView userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2sx-Th-zTf">
                                 <rect key="frame" x="65" y="350" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.72156862749999995" green="0.57647058819999997" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="ga1-M2-uJZ">
                                 <rect key="frame" x="153" y="385" width="174" height="30"/>
