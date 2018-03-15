@@ -14,6 +14,10 @@ class WebViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet weak var webView: WKWebView!
     @IBOutlet weak var spinner: UIActivityIndicatorView!
     
+    @IBAction override func unwind(for unwindSegue: UIStoryboardSegue, towardsViewController subsequentVC: UIViewController) {
+        
+    }
+    
     var name = String()
     
     func configureView() {
