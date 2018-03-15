@@ -15,7 +15,7 @@ class ResTableViewController: UITableViewController {
     
     func getDataFile() -> String? {
         //use a Bundle object of the directory for our application to retrieve the pathname of continents.plist
-        guard let pathString = Bundle.main.path(forResource: "", ofType: "plist") else {
+        guard let pathString = Bundle.main.path(forResource: "restaurants", ofType: "plist") else {
             return nil
         }
         return pathString
