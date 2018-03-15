@@ -2,22 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>item0</key>
+	<key>Luciles</key>
 	<array>
 		<string>Luciles</string>
 		<string>https://www.luciles.com/</string>
 	</array>
-	<key>item1</key>
+	<key>Rincon Argentina</key>
 	<array>
 		<string>Rincon Argentina</string>
 		<string>https://www.rinconargentinoboulder.com/</string>
 	</array>
-	<key>item2</key>
+	<key>Backcountry Pizza</key>
 	<array>
 		<string>Backcountry Pizza</string>
 		<string>https://www.backcountrypizzaandtaphouse.com/</string>
 	</array>
-	<key>item3</key>
+	<key>West End Tavern</key>
 	<array>
 		<string>West End Tavern</string>
 		<string>https://www.thewestendtavern.com/</string>
