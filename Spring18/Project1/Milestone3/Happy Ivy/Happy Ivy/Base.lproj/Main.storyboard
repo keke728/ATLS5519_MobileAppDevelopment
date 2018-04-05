@@ -89,6 +89,21 @@
             </objects>
             <point key="canvasLocation" x="913" y="620"/>
         </scene>
+        <!--More View Controller-->
+        <scene sceneID="3TR-4c-OVF">
+            <objects>
+                <viewController id="Zbb-sk-m6M" customClass="MoreViewController" customModule="Happy_Ivy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Aio-hS-Un9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="rlm-pZ-Azu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eS6-rp-q2e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1743" y="624"/>
+        </scene>
         <!--Status View Controller-->
         <scene sceneID="ZQl-9h-t7Q">
             <objects>
@@ -165,7 +180,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="y6F-Fy-K1s">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="y6F-Fy-K1s">
                                 <rect key="frame" x="0.0" y="44" width="375" height="574"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -224,15 +239,29 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCc-Y0-zvd">
+                                <rect key="frame" x="289" y="487" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="OFI-Wv-Nme"/>
+                                    <constraint firstAttribute="height" constant="50" id="V0O-eb-Ysf"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="icon20"/>
+                                <connections>
+                                    <action selector="moreBtn:" destination="KbV-td-7px" eventType="touchUpInside" id="mh7-fq-VcE"/>
+                                    <segue destination="Zbb-sk-m6M" kind="presentation" identifier="showAll" id="DyT-9U-BRX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="LAj-ww-YGY" firstAttribute="bottom" secondItem="y6F-Fy-K1s" secondAttribute="bottom" id="0Gz-l8-LTc"/>
                             <constraint firstItem="y6F-Fy-K1s" firstAttribute="top" secondItem="LAj-ww-YGY" secondAttribute="top" constant="-20" id="FJ0-VR-muQ"/>
+                            <constraint firstItem="LAj-ww-YGY" firstAttribute="bottom" secondItem="SCc-Y0-zvd" secondAttribute="bottom" constant="81" id="Gy3-eW-pkT"/>
                             <constraint firstItem="y6F-Fy-K1s" firstAttribute="leading" secondItem="LAj-ww-YGY" secondAttribute="leading" id="M6b-IB-FYq"/>
                             <constraint firstItem="wsS-57-n2H" firstAttribute="centerY" secondItem="nxw-zI-eTK" secondAttribute="centerY" constant="-219.75" id="aHr-nq-MQ4"/>
                             <constraint firstItem="wsS-57-n2H" firstAttribute="centerX" secondItem="nxw-zI-eTK" secondAttribute="centerX" id="bom-cY-BIq"/>
                             <constraint firstItem="LAj-ww-YGY" firstAttribute="trailing" secondItem="y6F-Fy-K1s" secondAttribute="trailing" id="wQo-aD-14A"/>
+                            <constraint firstItem="LAj-ww-YGY" firstAttribute="trailing" secondItem="SCc-Y0-zvd" secondAttribute="trailing" constant="36" id="xam-JT-d88"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LAj-ww-YGY"/>
                     </view>
@@ -241,6 +270,7 @@
                         <outlet property="CollectionView" destination="y6F-Fy-K1s" id="bVN-g9-acY"/>
                         <outlet property="day_label" destination="O2A-hV-TU4" id="1OW-az-Vsg"/>
                         <outlet property="month_label" destination="Wu9-5q-28B" id="u9w-c3-958"/>
+                        <outlet property="moreBtn" destination="SCc-Y0-zvd" id="ED5-xD-6bR"/>
                         <outlet property="year_label" destination="lkw-QU-Qpf" id="Jyl-d7-DfZ"/>
                         <segue destination="ui3-aM-8mP" kind="show" identifier="showMore" id="dfC-2m-HGs"/>
                     </connections>
@@ -538,6 +568,7 @@
     <resources>
         <image name="alarm" width="76" height="86"/>
         <image name="home_text" width="1148" height="395"/>
+        <image name="icon20" width="500" height="500"/>
         <image name="init_plant" width="325" height="484"/>
         <image name="init_values" width="636" height="165"/>
         <image name="name_text" width="623" height="268"/>

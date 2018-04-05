@@ -23,6 +23,9 @@ class GoalsViewController: UIViewController, UICollectionViewDelegate, UICollect
     @IBAction func unwindSegue(segue:UIStoryboardSegue){
     }
     
+
+    @IBAction func moreBtn(_ sender: UIButton) {
+    }
     @IBOutlet weak var month_label: UILabel!
     @IBOutlet weak var day_label: UILabel!
     @IBOutlet weak var year_label: UILabel!
@@ -83,7 +86,7 @@ class GoalsViewController: UIViewController, UICollectionViewDelegate, UICollect
         CollectionView.dataSource = self
         
         //Loop iconSets images
-        for i in 1...20{
+        for i in 1...19{
             iconSets.append("icon" + String(i))
         }
 
