@@ -2,6 +2,7 @@
     <string name="app_name">Beauty Brands</string>
     <string name="product_image">product_img</string>
     <string name="create_love">icon_title</string>
+    <string name="favorite">Favorite</string>
     <string-array name="brandname">
         <item>Clarins</item>
         <item>Dove</item>

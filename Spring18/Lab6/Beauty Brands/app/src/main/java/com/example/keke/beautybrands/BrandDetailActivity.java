@@ -24,12 +24,14 @@ public class BrandDetailActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         Intent i = getIntent();
         brandname = i.getStringExtra("brandname");
+
         //Get the list view
         ListView listBrand = getListView();
         //Define an array adapter
-        ArrayAdapter<Beauty>listAdapter;
+        ArrayAdapter<Beauty> listAdapter;
         //Initialize the array adapter with the right list of brands
         switch (brandname){
             case"Clarins":
