@@ -141,20 +141,12 @@ public class EditorActivity extends AppCompatActivity implements
             }
         });
 
-        localSyncBtn = findViewById(R.id.localSync);
-        localSyncBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                syncLocal();
-            }
-        });
 
-        setLocationBtn = findViewById(R.id.setLocation);
+
 
 
         Longitude = findViewById(R.id.Longitude);
         Latitude = findViewById(R.id.Latitude);
-        ImageName = findViewById(R.id.ImageName);
 
 
         mGoogleApiClient = new GoogleApiClient.Builder(this)
