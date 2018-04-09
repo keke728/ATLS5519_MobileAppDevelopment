@@ -9,23 +9,27 @@
 
 
     <fragment
-        android:id="@+id/universe_frag"
+        android:id="@+id/phone_frag"
         android:name="com.example.keke.phones.PhoneListFragment"
-        android:layout_width="200dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginEnd="71dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_container"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         tools:layout="@layout/fragment_phone_list" />
 
     <FrameLayout
         android:id="@+id/fragment_container"
         android:name="com.example.keke.phones.PhoneDetailFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="522dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="16dp"
+        android:alwaysDrawnWithCache="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/phone_frag"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout="@layout/fragment_phone_detail" />
 
