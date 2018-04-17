@@ -18,29 +18,31 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Create a new BodyPartFragment instance and display it using the FragmentManager
-        BodyPartFragment headFragment = new BodyPartFragment();
-        BodyPartFragment bodyFragment = new BodyPartFragment();
-        BodyPartFragment legFragment  = new BodyPartFragment();
+        //Only create new fragments when there is no previously saved state
+        if(savedInstanceState == null) {
 
-        //Set the list of image ids for the head fragment and set the position to the second image in the list
-        headFragment.setImageIds(ImageAssets.getHeads());
-        bodyFragment.setImageIds(ImageAssets.getBodies());
-        legFragment.setImageIds(ImageAssets.getLegs());
-        headFragment.setmListIndex(1);
-        bodyFragment.setmListIndex(1);
-        legFragment.setmListIndex(1);
+            //Create a new BodyPartFragment instance and display it using the FragmentManager
+            BodyPartFragment headFragment = new BodyPartFragment();
+            BodyPartFragment bodyFragment = new BodyPartFragment();
+            BodyPartFragment legFragment = new BodyPartFragment();
 
-        //Use a FragmentManager and transaction to add the fragment to the screen
-        FragmentManager fragmentManager = getSupportFragmentManager();
+            //Set the list of image ids for the head fragment and set the position to the second image in the list
+            headFragment.setImageIds(ImageAssets.getHeads());
+            bodyFragment.setImageIds(ImageAssets.getBodies());
+            legFragment.setImageIds(ImageAssets.getLegs());
+            headFragment.setmListIndex(1);
+            bodyFragment.setmListIndex(1);
+            legFragment.setmListIndex(1);
 
-        //Fragment transaction
-        fragmentManager.beginTransaction()
-                       .add(R.id.head_container, headFragment)
-                       .add(R.id.body_container, bodyFragment)
-                       .add(R.id.leg_container, legFragment)
-                       .commit();
+            //Use a FragmentManager and transaction to add the fragment to the screen
+            FragmentManager fragmentManager = getSupportFragmentManager();
 
-
+            //Fragment transaction
+            fragmentManager.beginTransaction()
+                    .add(R.id.head_container, headFragment)
+                    .add(R.id.body_container, bodyFragment)
+                    .add(R.id.leg_container, legFragment)
+                    .commit();
+        }
     }
 }
