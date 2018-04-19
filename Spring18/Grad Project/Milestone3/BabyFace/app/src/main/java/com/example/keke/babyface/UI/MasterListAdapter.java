@@ -53,7 +53,7 @@ public class MasterListAdapter extends BaseAdapter{
             imageView = new ImageView(mContext);
             //Define the layout parameters
             imageView.setAdjustViewBounds(true);
-            imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+            imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
             imageView.setPadding(8,8,8,8);
         } else {
             imageView = (ImageView) convertView;

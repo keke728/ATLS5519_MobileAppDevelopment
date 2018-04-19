@@ -22,7 +22,6 @@ public class ImageAssets {
         add(R.drawable.head7);
         add(R.drawable.head8);
         add(R.drawable.head9);
-        add(R.drawable.head10);
     }};
 
     private static final List<Integer> bodies = new ArrayList<Integer>() {{
@@ -35,7 +34,6 @@ public class ImageAssets {
         add(R.drawable.body7);
         add(R.drawable.body8);
         add(R.drawable.body9);
-        add(R.drawable.body10);
     }};
 
     private static final List<Integer> legs = new ArrayList<Integer>() {{
@@ -48,7 +46,6 @@ public class ImageAssets {
         add(R.drawable.leg7);
         add(R.drawable.leg8);
         add(R.drawable.leg9);
-        add(R.drawable.leg10);
     }};
 
     private static final List<Integer> all = new ArrayList<Integer>() {{
