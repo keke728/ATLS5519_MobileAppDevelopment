@@ -1,0 +1,14 @@
+<phones>
+    <platform>
+        <name>iPhone</name>
+        <phones>iPhone X</phones>
+        <phones>iPhone 8</phones>
+        <phones>iPhone 8 Plus</phones>
+    </platform>
+    <platform>
+        <name>Android</name>
+        <phones>Samsung</phones>
+        <phones>Nexus</phones>
+        <phones>Huawei</phones>
+    </platform>
+</phones>
