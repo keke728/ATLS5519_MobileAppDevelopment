@@ -14,9 +14,8 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.File;
@@ -31,12 +30,11 @@ public class MainActivity extends AppCompatActivity {
 
     private ImageView mImageView;
 
-    private Button mEmojifyButton;
+    private ImageButton mCameraBtn;
     private FloatingActionButton mShareFab;
     private FloatingActionButton mSaveFab;
     private FloatingActionButton mClearFab;
 
-    private TextView mTitleTextView;
 
     private String mTempPhotoPath;
 
@@ -51,17 +49,15 @@ public class MainActivity extends AppCompatActivity {
 
         // Bind the views
         mImageView =  findViewById(R.id.image_view);
-        mEmojifyButton = findViewById(R.id.emojify_button);
+        mCameraBtn = findViewById(R.id.imageButton);
         mShareFab = findViewById(R.id.share_button);
         mSaveFab =  findViewById(R.id.save_button);
         mClearFab = findViewById(R.id.clear_button);
-        mTitleTextView = findViewById(R.id.title_text_view);
     }
 
     /**
-     * OnClick method for "Emojify Me!" Button. Launches the camera app.
-     *
-     * @param view The emojify me button.
+     * OnClick method to launch the camera app.
+
      */
     public void emojifyMe(View view) {
         // Check for the external storage permission
@@ -157,8 +153,7 @@ public class MainActivity extends AppCompatActivity {
     private void processAndSetImage() {
 
         // Toggle Visibility of the views
-        mEmojifyButton.setVisibility(View.GONE);
-        mTitleTextView.setVisibility(View.GONE);
+        mCameraBtn.setVisibility(View.GONE);
         mSaveFab.setVisibility(View.VISIBLE);
         mShareFab.setVisibility(View.VISIBLE);
         mClearFab.setVisibility(View.VISIBLE);
@@ -209,8 +204,7 @@ public class MainActivity extends AppCompatActivity {
     public void clearImage(View view) {
         // Clear the image and toggle the view visibility
         mImageView.setImageResource(0);
-        mEmojifyButton.setVisibility(View.VISIBLE);
-        mTitleTextView.setVisibility(View.VISIBLE);
+        mCameraBtn.setVisibility(View.VISIBLE);
         mShareFab.setVisibility(View.GONE);
         mSaveFab.setVisibility(View.GONE);
         mClearFab.setVisibility(View.GONE);

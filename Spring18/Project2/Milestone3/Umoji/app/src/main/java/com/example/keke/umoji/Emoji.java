@@ -16,7 +16,7 @@ class Emoji {
 
     private static final String LOG_TAG = Emoji.class.getSimpleName();
 
-    private static final float EMOJI_SCALE_FACTOR = .9f;
+    private static final float EMOJI_SCALE_FACTOR = .95f;
     private static final double SMILING_PROB_THRESHOLD = .15;
     private static final double EYE_OPEN_PROB_THRESHOLD = .5;
 
@@ -71,13 +71,9 @@ class Emoji {
                          emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
                                  R.drawable.rightwink);
                          break;
-                     case LEFT_WINK_FROWN:
+                     case CRY:
                          emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                 R.drawable.leftwinkfrown);
-                         break;
-                     case RIGHT_WINK_FROWN:
-                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                 R.drawable.rightwinkfrown);
+                                 R.drawable.cry);
                          break;
                      case CLOSED_EYE_SMILE:
                          emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
@@ -139,10 +135,8 @@ class Emoji {
                 emojis = Emojis.SMILE;
             }
         } else {
-            if (leftEyeClosed && !rightEyeClosed) {
-                emojis = Emojis.LEFT_WINK_FROWN;
-            }  else if(rightEyeClosed && !leftEyeClosed){
-                emojis = Emojis.RIGHT_WINK_FROWN;
+            if (leftEyeClosed && rightEyeClosed) {
+                emojis = Emojis.CRY;
             } else if (leftEyeClosed){
                 emojis = Emojis.CLOSED_EYE_FROWN;
             } else {
@@ -172,13 +166,11 @@ class Emoji {
         Bitmap resultBitmap = Bitmap.createBitmap(backgroundBitmap.getWidth(),
                 backgroundBitmap.getHeight(), backgroundBitmap.getConfig());
 
-        // Scale the emoji so it looks better on the face
-        float scaleFactor = EMOJI_SCALE_FACTOR;
 
         // Determine the size of the emoji to match the width of the face and preserve aspect ratio
-        int newEmojiWidth = (int) (face.getWidth() * scaleFactor);
+        int newEmojiWidth = (int) (face.getWidth() * EMOJI_SCALE_FACTOR);
         int newEmojiHeight = (int) (emojiBitmap.getHeight() *
-                newEmojiWidth / emojiBitmap.getWidth() * scaleFactor);
+                        newEmojiWidth / emojiBitmap.getWidth() * EMOJI_SCALE_FACTOR);
 
 
         // Scale the emoji
@@ -202,12 +194,11 @@ class Emoji {
 
     // Enum for all possible Emojis
     private enum Emojis {
+        CRY,
         SMILE,
         FROWN,
         LEFT_WINK,
         RIGHT_WINK,
-        LEFT_WINK_FROWN,
-        RIGHT_WINK_FROWN,
         CLOSED_EYE_SMILE,
         CLOSED_EYE_FROWN
     }
